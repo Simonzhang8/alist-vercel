@@ -11,6 +11,6 @@ tar -zxvf alist.tar.gz
 # 确保二进制文件有执行权限
 chmod +x alist
 
-# 创建 dist 目录并移动二进制文件
-mkdir -p dist
-mv alist dist/
+
+
+./alist server
